@@ -15,8 +15,8 @@ def calculateFractionOfOutage( xml_file,REASON ):
             totalNrOfOutagesDueToReason=totalNrOfOutagesDueToReason+1
             
     fraction =float(totalNrOfOutagesDueToReason)/float(totalNrOfOutages);
-    outString = 'The fraction of the outages that was due to '+REASON+ ' was '+str(totalNrOfOutagesDueToReason)+'/'+str(totalNrOfOutages)+' ('+fraction+')'
-    print str;
+    outString = 'The fraction of the outages that was due to '+REASON+ ' was '+str(totalNrOfOutagesDueToReason)+'/'+str(totalNrOfOutages)+' ('+str(fraction)+')'
+    print outString;
     return;
 
 
