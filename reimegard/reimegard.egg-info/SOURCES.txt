@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+reimegard/__init__.py
+reimegard.egg-info/PKG-INFO
+reimegard.egg-info/SOURCES.txt
+reimegard.egg-info/dependency_links.txt
+reimegard.egg-info/entry_points.txt
+reimegard.egg-info/not-zip-safe
+reimegard.egg-info/top_level.txt
