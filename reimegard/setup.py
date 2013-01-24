@@ -15,6 +15,7 @@ test""",
       url='',
       license='',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+      scripts = ['scripts/getting_data.py'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
